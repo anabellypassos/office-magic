@@ -5,7 +5,7 @@ import App from './App.tsx'
 import { ClerkProvider } from '@clerk/react'
 
 // Puxa a chave do arquivo .env
-const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
+const PUBLISHABLE_KEY = import.meta.env.VITE_APP_AUTH_ID
 
 if (!PUBLISHABLE_KEY) {
   throw new Error("Faltou adicionar a VITE_CLERK_PUBLISHABLE_KEY no arquivo .env")

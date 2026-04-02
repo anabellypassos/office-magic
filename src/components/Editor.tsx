@@ -46,7 +46,7 @@ export default function Editor({ docId, initialContent }: EditorProps) {
         }
 
         setLoading(true);
-        const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+        const apiKey = import.meta.env.VITE_APP_AI_TOKEN;
 
         try {
             const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent`, {
