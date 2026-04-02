@@ -1,30 +1,50 @@
-import { Show, SignInButton, SignUpButton } from '@clerk/react'
+import { Show, SignInButton } from '@clerk/react'
 import Dashboard from './components/Dashboard'
 
 function App() {
   return (
     <>
-      {/* O que aparece quando NÃO está logado */}
       <Show when="signed-out">
-        <div className="flex flex-col items-center justify-center h-screen bg-gray-50">
-          <h1 className="text-4xl font-bold mb-6">Bem-vindo ao SaaS IA</h1>
-          <p className="text-gray-600 mb-8">O seu editor inteligente estilo Notion.</p>
-          <div className="flex gap-4">
-            <SignInButton mode="modal">
-              <button className="px-4 py-2 bg-white border border-gray-300 rounded shadow hover:bg-gray-50">
-                Entrar
-              </button>
-            </SignInButton>
-            <SignUpButton mode="modal">
-              <button className="px-4 py-2 bg-black text-white rounded shadow hover:bg-gray-800">
-                Criar Conta
-              </button>
-            </SignUpButton>
+        {/* BACKGROUND COM DEGRADÊ PROFISSIONAL */}
+        <div className="min-h-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900 via-slate-900 to-black flex flex-col items-center justify-center p-4">
+
+          <div className="max-w-4xl w-full text-center space-y-8">
+            {/* LOGO GRANDE */}
+            <div className="flex flex-col items-center space-y-2">
+              <div className="text-6xl font-bold text-white flex items-center gap-3">
+                <span className="text-docmind-accent">DocMind</span> AI
+              </div>
+              <p className="text-blue-300 tracking-[0.2em] uppercase text-sm font-medium">Intelligent Document Solutions</p>
+            </div>
+
+            <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight">
+              Boost Your Productivity <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+                with Intelligence
+              </span>
+            </h1>
+
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-12">
+              <div className="flex items-center gap-6 text-slate-300 text-sm border border-slate-700/50 p-4 rounded-2xl bg-slate-800/30 backdrop-blur-xl">
+                <span className="flex items-center gap-2">✨ Generate</span>
+                <span className="text-slate-600">|</span>
+                <span className="flex items-center gap-2">📊 Summarize</span>
+                <span className="text-slate-600">|</span>
+                <span className="flex items-center gap-2">📂 Analyze</span>
+              </div>
+            </div>
+
+            <div className="flex gap-4 justify-center mt-12">
+              <SignInButton mode="modal">
+                <button className="px-10 py-5 bg-gradient-to-r from-cyan-400 to-blue-600 text-white font-bold rounded-2xl shadow-[0_0_30px_rgba(6,182,212,0.3)] hover:scale-105 hover:shadow-[0_0_40px_rgba(6,182,212,0.5)] transition-all duration-300">
+                  Get Started Free
+                </button>
+              </SignInButton>
+            </div>
           </div>
         </div>
       </Show>
 
-      {/* O que aparece quando ESTÁ logado */}
       <Show when="signed-in">
         <Dashboard />
       </Show>
