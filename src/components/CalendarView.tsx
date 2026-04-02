@@ -67,7 +67,7 @@ export default function CalendarView() {
             {/* CABEÇALHO */}
             <header className="mb-6 lg:mb-10 flex flex-col lg:flex-row gap-4 justify-between items-center bg-white p-6 lg:p-8 rounded-3xl lg:rounded-[3rem] shadow-xl border-b-4 border-docmind-accent">
                 <div className="text-center lg:text-left text-slate-900">
-                    <p className="text-docmind-accent text-[8px] lg:text-[10px] font-black uppercase tracking-[0.4em] mb-1">DocMind Productivity</p>
+                    <p className="text-docmind-accent text-[8px] lg:text-[10px] font-black uppercase tracking-[0.4em] mb-1">Produtividade DocMind</p>
                     <h2 className="text-3xl lg:text-5xl font-black capitalize tracking-tighter">
                         {selectedDate.toLocaleString('default', { month: 'long' })} 
                         <span className="text-docmind-accent ml-2">{selectedDate.getFullYear()}</span>

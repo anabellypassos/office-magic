@@ -75,8 +75,8 @@ export default function Editor({ docId, initialContent }: EditorProps) {
                 <div className="px-3 py-1 bg-docmind-dark text-[8px] lg:text-[10px] font-black text-docmind-accent rounded-full uppercase tracking-tighter">
                     {loading ? "Pensando..." : "AI Tools"}
                 </div>
-                <button disabled={loading} onClick={() => handleIA('Resumir')} className="flex-1 lg:flex-none px-3 py-2 bg-white border border-slate-200 text-slate-700 rounded-xl text-[10px] lg:text-xs font-bold hover:bg-docmind-accent hover:text-white transition-all shadow-sm">✨ Summarize</button>
-                <button disabled={loading} onClick={() => handleIA('Reescrever')} className="flex-1 lg:flex-none px-3 py-2 bg-white border border-slate-200 text-slate-700 rounded-xl text-[10px] lg:text-xs font-bold hover:bg-blue-600 hover:text-white transition-all shadow-sm">🔄 Rewrite</button>
+                <button disabled={loading} onClick={() => handleIA('Resumir')} className="flex-1 lg:flex-none px-3 py-2 bg-white border border-slate-200 text-slate-700 rounded-xl text-[10px] lg:text-xs font-bold hover:bg-docmind-accent hover:text-white transition-all shadow-sm">✨ Resumir</button>
+                <button disabled={loading} onClick={() => handleIA('Reescrever')} className="flex-1 lg:flex-none px-3 py-2 bg-white border border-slate-200 text-slate-700 rounded-xl text-[10px] lg:text-xs font-bold hover:bg-blue-600 hover:text-white transition-all shadow-sm">🔄 Reescrever</button>
             </div>
             <div className="p-4 lg:p-10">
                 <EditorContent editor={editor} />
