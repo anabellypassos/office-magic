@@ -4,7 +4,8 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)<img width="1913" height="923" alt="Capturar" src="https://github.com/user-attachments/assets/9f2bcda0-ee0a-4198-b92e-2d5fecacd982" />
+
 
 O **DocMind AI** é uma plataforma centralizada de produtividade que combina gestão de documentos com Inteligência Artificial, calendário de eventos e lista de tarefas. O objetivo é reduzir a troca de abas (context switching) ao unir escrita inteligente e organização em um único lugar.
 
@@ -74,4 +75,4 @@ Durante o desenvolvimento, foquei em boas práticas de engenharia de software:
 
 ## 👨‍💻 Autor
 
-Seu Nome - [LinkedIn](www.linkedin.com/in/anabelly-passos-a4b44623b) - [Portfólio](https://portifolio-psi-ruddy-52.vercel.app/)
+Anabelly Passos - [LinkedIn](www.linkedin.com/in/anabelly-passos-a4b44623b) - [Portfólio](https://portifolio-psi-ruddy-52.vercel.app/)
