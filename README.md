@@ -1,10 +1,10 @@
 # 🚀 DocMind AI - Workspace Inteligente de Produtividade
 
-![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)<img width="1913" height="923" alt="Capturar" src="https://github.com/user-attachments/assets/9f2bcda0-ee0a-4198-b92e-2d5fecacd982" />
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<img width="3780" height="1890" alt="Design sem nome" src="https://github.com/user-attachments/assets/0ccb7296-77e6-4f89-839b-8781b3c275f1" />
 
 
 O **DocMind AI** é uma plataforma centralizada de produtividade que combina gestão de documentos com Inteligência Artificial, calendário de eventos e lista de tarefas. O objetivo é reduzir a troca de abas (context switching) ao unir escrita inteligente e organização em um único lugar.
